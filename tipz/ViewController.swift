@@ -28,6 +28,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         picker.delegate = self
         picker.dataSource = self
         tipField.inputView = picker
+        billField.becomeFirstResponder()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
